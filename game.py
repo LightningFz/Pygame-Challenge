@@ -39,8 +39,8 @@ enemyEight = EnemySprite()
 enemyEight_rect = enemyEight.rect
 enemyNine = EnemySprite()
 enemyNine_rect = enemyNine.rect
-enemyOn = EnemySprite()
-enemyOn_rect = enemyOn.rect
+enemyTen = EnemySprite()
+enemyTen_rect = enemyTen.rect
 enemyTw = EnemySprite()
 enemyTw_rect = enemyTw.rect
 enemyThre = EnemySprite()
@@ -77,7 +77,7 @@ def boom():
         pygame.quit()
     elif player_rect.colliderect(enemyNine_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyOn_rect):
+    elif player_rect.colliderect(enemyTen_rect):
         pygame.quit()
     elif player_rect.colliderect(enemyTw_rect):
         pygame.quit()
@@ -131,7 +131,7 @@ while open==True:#loop for the window to stay open
     enemySeven.Update()
     enemyEight.Update()
     enemyNine.Update()
-    enemyOn.Update()
+    enemyTen.Update()
     enemyTw.Update()
     enemyThre.Update()
     enemyFou.Update()
@@ -154,7 +154,7 @@ while open==True:#loop for the window to stay open
     all_sprites_list.add(enemySeven)
     all_sprites_list.add(enemyEight)
     all_sprites_list.add(enemyNine)
-    all_sprites_list.add(enemyOn)
+    all_sprites_list.add(enemyTen)
     all_sprites_list.add(enemyTw)
     all_sprites_list.add(enemyThre)
     all_sprites_list.add(enemyFou)
