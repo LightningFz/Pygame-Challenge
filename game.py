@@ -45,18 +45,18 @@ enemyEleven = EnemySprite()
 enemyEleven_rect = enemyEleven.rect
 enemyTwelve = EnemySprite()
 enemyTwelve_rect = enemyTwelve.rect
-enemyFou = EnemySprite()
-enemyFou_rect = enemyFou.rect
-enemyFiv = EnemySprite()
-enemyFiv_rect = enemyFiv.rect
-enemySi = EnemySprite()
-enemySi_rect = enemySi.rect
-enemySeve = EnemySprite()
-enemySeve_rect = enemySeve.rect
-enemyEigh = EnemySprite()
-enemyEigh_rect = enemyEigh.rect
-enemyNin = EnemySprite()
-enemyNin_rect = enemyNin.rect
+enemyThirteen = EnemySprite()
+enemyThirteen_rect = enemyThirteen.rect
+enemyFourteen = EnemySprite()
+enemyFourteen_rect = enemyFourteen.rect
+enemyFifteen = EnemySprite()
+enemyFifteen_rect = enemyFifteen.rect
+enemySixteen = EnemySprite()
+enemySixteen_rect = enemySixteen.rect
+enemySeventeen = EnemySprite()
+enemySeventeen_rect = enemySeventeen.rect
+enemyEighteen = EnemySprite()
+enemyEighteen_rect = enemyEighteen.rect
 open = True
 def boom():
     if player_rect.colliderect(enemyOne_rect):
@@ -79,21 +79,21 @@ def boom():
         pygame.quit()
     elif player_rect.colliderect(enemyTen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyTw_rect):
+    elif player_rect.colliderect(enemyEleven_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyThre_rect):
+    elif player_rect.colliderect(enemyTwelve_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyFou_rect):
+    elif player_rect.colliderect(enemyThirteen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyFiv_rect):
+    elif player_rect.colliderect(enemyFourteen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemySi_rect):
+    elif player_rect.colliderect(enemyFifteen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemySeve_rect):
+    elif player_rect.colliderect(enemySixteen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyEigh_rect):
+    elif player_rect.colliderect(enemySeventeen_rect):
         pygame.quit()
-    elif player_rect.colliderect(enemyNin_rect):
+    elif player_rect.colliderect(enemyEighteen_rect):
         pygame.quit()
 #-------------------MAIN LOOP--------------------
 while open==True:#loop for the window to stay open
@@ -132,14 +132,14 @@ while open==True:#loop for the window to stay open
     enemyEight.Update()
     enemyNine.Update()
     enemyTen.Update()
-    enemyTw.Update()
-    enemyThre.Update()
-    enemyFou.Update()
-    enemyFiv.Update()
-    enemySi.Update()
-    enemySeve.Update()
-    enemyEigh.Update()
-    enemyNin.Update()  
+    enemyEleven.Update()
+    enemyTwelve.Update()
+    enemyThirteen.Update()
+    enemyFourteen.Update()
+    enemyFifteen.Update()
+    enemySixteen.Update()
+    enemySeventeen.Update()
+    enemyEighteen.Update()  
 
     #--drawing code--
 
@@ -155,14 +155,14 @@ while open==True:#loop for the window to stay open
     all_sprites_list.add(enemyEight)
     all_sprites_list.add(enemyNine)
     all_sprites_list.add(enemyTen)
-    all_sprites_list.add(enemyTw)
-    all_sprites_list.add(enemyThre)
-    all_sprites_list.add(enemyFou)
-    all_sprites_list.add(enemyFiv)
-    all_sprites_list.add(enemySi)
-    all_sprites_list.add(enemySeve)
-    all_sprites_list.add(enemyEigh)
-    all_sprites_list.add(enemyNin)
+    all_sprites_list.add(enemyEleven)
+    all_sprites_list.add(enemyTwelve)
+    all_sprites_list.add(enemyThirteen)
+    all_sprites_list.add(enemyFourteen)
+    all_sprites_list.add(enemyFifteen)
+    all_sprites_list.add(enemySixteen)
+    all_sprites_list.add(enemySeventeen)
+    all_sprites_list.add(enemyEighteen)
 
     
     all_sprites_list.update()
